@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bingo Virtual - Cartones Interactivos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Bingo Virtual 🎯</h1>
+
+  <!-- Botón para subir imagen -->
+  <div class="upload-container">
+    <label for="uploadImage" class="upload-btn">📸 Subir Cartones</label>
+    <input type="file" id="uploadImage" accept="image/*" multiple>
+  </div>
+
+  <!-- Selector de forma -->
+  <div class="highlight-options">
+    <label><input type="radio" name="shape" value="square" checked> Cuadrado</label>
+    <label><input type="radio" name="shape" value="circle"> Círculo</label>
+  </div>
+
+  <!-- Contenedor general donde se agregan todos los cartones -->
+  <div id="cartonesWrapper"></div>
+
+  <div class="controls">
+    <button id="resetBtn">🔄 Reiniciar Todos</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
